@@ -1,18 +1,16 @@
 {
-	"name": "Highlight",
+	"name": "highlight",
 	"author": "Taegon Kim",
 	"private": true,
 	"scripts": {
 		"postinstall": "del Highlight/scripts && npm run copy-css && node build.js",
-		"copy-css": "make-dir Highlight/scripts/styles && cpy 'node_modules/highlight.js/styles/**/*.css' Highlight/scripts/styles"
+		"copy-css": "make-dir Highlight/scripts/styles && cpy 'node_modules/highlight.js/styles/**/*.min.css' Highlight/scripts/styles"
 	},
 	"dependencies": {
-		"cpy-cli": "^3.1.1",
-		"cssmin": "^0.4.3",
-		"del-cli": "^4.0.0",
-		"glob": "^7.1.7",
-		"highlight.js": "11.0.1",
-		"make-dir-cli": "^3.0.0",
-		"uglify-js": "^3.13.9"
+		"cpy-cli": "^5.0.0",
+		"del-cli": "^6.0.0",
+		"glob": "^11.0.0",
+		"highlight.js": "11.10.0",
+		"make-dir-cli": "^4.0.0"
 	}
 }
