@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="OL7-Zh-gPH">
+<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="23504" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="OL7-Zh-gPH">
     <dependencies>
         <deployment identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="18122"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="23504"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -26,15 +26,15 @@
             </objects>
             <point key="canvasLocation" x="57.5" y="-56.5"/>
         </scene>
-        <!--Pref Tab View Controller-->
+        <!--Tab View Controller-->
         <scene sceneID="Cru-EV-yAQ">
             <objects>
-                <tabViewController showSeguePresentationStyle="single" selectedTabViewItemIndex="0" tabStyle="toolbar" canPropagateSelectedChildViewControllerTitle="NO" id="JtN-cq-QYP" customClass="PrefTabViewController" customModule="Highlight" customModuleProvider="target" sceneMemberID="viewController">
+                <tabViewController showSeguePresentationStyle="single" selectedTabViewItemIndex="0" tabStyle="toolbar" canPropagateSelectedChildViewControllerTitle="NO" id="JtN-cq-QYP" sceneMemberID="viewController">
                     <tabViewItems>
-                        <tabViewItem identifier="" image="NSPreferencesGeneral" id="Pya-f8-baD"/>
-                        <tabViewItem image="Swift" id="fYy-Zd-XU9"/>
-                        <tabViewItem image="NSColorPanel" id="V1k-Gk-Y8y"/>
-                        <tabViewItem image="NSInfo" id="h45-ns-KdG"/>
+                        <tabViewItem identifier="" image="gearshape" catalog="system" id="Pya-f8-baD"/>
+                        <tabViewItem image="chevron.left.slash.chevron.right" catalog="system" id="fYy-Zd-XU9"/>
+                        <tabViewItem image="paintbrush" catalog="system" id="V1k-Gk-Y8y"/>
+                        <tabViewItem image="info.circle" catalog="system" id="h45-ns-KdG"/>
                     </tabViewItems>
                     <tabView key="tabView" type="noTabsNoBorder" id="CBv-Cl-eRW">
                         <rect key="frame" x="0.0" y="0.0" width="450" height="335"/>
@@ -285,7 +285,7 @@
                                             <rect key="frame" x="40" y="-4" width="374" height="25"/>
                                             <popUpButtonCell key="cell" type="push" title="Item 1" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" state="on" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" selectedItem="vZs-RY-NGH" id="JIp-X7-mU4">
                                                 <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
-                                                <font key="font" metaFont="menu"/>
+                                                <font key="font" metaFont="message"/>
                                                 <menu key="menu" id="089-pO-pUh">
                                                     <items>
                                                         <menuItem title="Item 1" state="on" id="vZs-RY-NGH"/>
@@ -541,9 +541,9 @@
     </scenes>
     <resources>
         <image name="Highlight" width="360" height="360"/>
-        <image name="NSColorPanel" width="32" height="32"/>
-        <image name="NSInfo" width="32" height="32"/>
-        <image name="NSPreferencesGeneral" width="32" height="32"/>
-        <image name="Swift" width="32" height="32"/>
+        <image name="chevron.left.slash.chevron.right" catalog="system" width="21" height="15"/>
+        <image name="gearshape" catalog="system" width="16" height="16"/>
+        <image name="info.circle" catalog="system" width="15" height="15"/>
+        <image name="paintbrush" catalog="system" width="17" height="18"/>
     </resources>
 </document>
