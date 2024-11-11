@@ -8,8 +8,11 @@
 # Highlight
 
 Highlight is a rich-featured syntax highlighter for Keynote slides that allows you to get syntax-highlighted code in RTF with one click.
-Its main feature is based on [highlight.js](https://highlightjs.org/), which means 185 langauges and 89 styles are available.
+Its main feature is based on [highlight.js](https://highlightjs.org/), which means a lot of languages and styles are available.
 Check out the [demo](https://highlightjs.org/static/demo/) to see what you get with the application.
+
+This repository is a fork of [taggon/highlight](https://github.com/taggon/highlight), which is the original app.
+I made some changes to modernize the app, update highlight.js and distribute it as a Homebrew Cask.
 
 ## Features
 
@@ -35,9 +38,23 @@ Want to add support for your language? Send me translations! :)
 
 ## Installation
 
-* Download the latest version [here](https://github.com/taggon/highlight/releases).
-* Unarchive it and then run the application.
-* You may be asked to move it into Applications folder. I strongly recommend accepting it.
+### Homebrew
+
+You can install the app using [Homebrew](https://brew.sh/):
+
+```bash
+brew install --cask tdimeco/apps/highlight
+```
+
+This is the recommended way to install the app.
+The app auto updates with Homebrew.
+
+The Homebrew tap is maintained by [@tdimeco](https://github.com/tdimeco).
+
+### Manual
+
+You can download the app from the [Releases](https://github.com/tdimeco/highlight/releases) page.
+The app does not auto update in this case.
 
 ## Usage
 
@@ -54,15 +71,13 @@ Do you like to customize the results? Just open the Preferences dialog. You will
 
 ## How to build
 
-Once you install [CocoaPods](https://cocoapods.org/) on your system, run the following command in the project root directory.
-You may need to setup [NodeJS](https://nodejs.org).
+You need to setup [NodeJS](https://nodejs.org), then run:
 
 ```
-$ pod install
 $ npm install
 ```
 
-Open the workspace by double-clicking `Highlight.xcworkspace` then build it. It should just work.
+Open the project by double-clicking `Highlight.xcodeproj` then build it. It should just work.
 
 ## Contribution
 
