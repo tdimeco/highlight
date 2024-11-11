@@ -8,7 +8,6 @@
 
 import Cocoa
 import Magnet
-import LetsMove
 
 @NSApplicationMain
 class AppDelegate: NSObject, NSApplicationDelegate, UserSettings {
@@ -30,10 +29,6 @@ class AppDelegate: NSObject, NSApplicationDelegate, UserSettings {
     }()
 
     func applicationDidFinishLaunching(_ aNotification: Notification) {
-        // move this application into /Applications if necessary.
-        #if !DEBUG
-            PFMoveToApplicationsFolderIfNecessary()
-        #endif
 
         // init menu
         initMenu()

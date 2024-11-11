@@ -166,9 +166,9 @@ class Style {
             let regex = try! NSRegularExpression(pattern: "[0-9a-f]")
             hexColor = regex.stringByReplacingMatches(in: hexColor, options: [], range: NSMakeRange(0, 3), withTemplate: "$0$0")
         }
-        var rgbValue: UInt32 = 0
-        Scanner(string: hexColor).scanHexInt32(&rgbValue)
-        
+        var rgbValue: UInt64 = 0
+        Scanner(string: hexColor).scanHexInt64(&rgbValue)
+
         return CGColor(
             red: CGFloat((rgbValue & 0xFF0000) >> 16) / 255.0,
             green: CGFloat((rgbValue & 0x00FF00) >> 8) / 255.0,

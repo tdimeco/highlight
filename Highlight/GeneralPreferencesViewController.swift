@@ -20,7 +20,6 @@ class GeneralPreferencesViewController: NSViewController, UserSettings {
     override func viewDidLoad() {
         super.viewDidLoad()
         recordView.delegate = self
-        recordView.borderColor = NSColor.windowFrameColor
     }
     
     override func viewDidAppear() {

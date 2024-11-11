@@ -43,7 +43,7 @@ highlight.js의 기능:
 
 ![](https://user-images.githubusercontent.com/212034/28166880-98238d06-6814-11e7-9418-83a286a8a67d.gif)
 
-* 애플리케이션을 실행하면 아래 스크린샷처럼 형광펜 아이콘이 나타납니다.  
+* 애플리케이션을 실행하면 아래 스크린샷처럼 형광펜 아이콘이 나타납니다.
 ![](https://user-images.githubusercontent.com/212034/28166990-f05c99fe-6814-11e7-9ec8-c7569a20763d.png)
 * 구문 강조 색상을 입힐 코드를 복사합니다.
 * 메뉴바에서 아이콘을 클릭해 팝업 메뉴를 엽니다. 구문 강조 후 복사 메뉴에서 프로그래밍 언어를 고르거나 구문강조 후 복사(언어 자동 감지)를 클릭합니다. 이제 코드에 구문강조 색상이 입혀졌을 것입니다.
@@ -70,4 +70,4 @@ Highlight는 다국어 UI를 지원하는데 현재는 영어와 한국어를 �
 [한국어 번역 폴더](https://github.com/taggon/highlight/tree/master/Highlight/ko.lproj)를 원하는 언어
 (예. 포르투갈어라면 pr.lproj, 러시아어라면 ru.lproj 등)에 해당하는 폴더로 복사하세요.
 
-폴더 안에 있는 파일은 모두 번역해주셔야 합니다. 단, MoveApplication.strings 파일은 [LetsMove](https://github.com/potionfactory/LetsMove) 프로젝트에서 가져 온 것이므로 해당 프로젝트에 번역 파일이 존재한다면 그대로 복사해서 사용해도 괜찮습니다.
+폴더 안에 있는 파일은 모두 번역해주셔야 합니다.
