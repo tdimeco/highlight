@@ -1,5 +1,5 @@
 <p align="center">
-	<img src="https://user-images.githubusercontent.com/212034/28132290-577374c6-6777-11e7-9dd2-802606985c2b.png" width="256" height="256">
+	<img src="https://raw.githubusercontent.com/tdimeco/highlight/refs/heads/tdimeco/Highlight/Assets.xcassets/Highlight.imageset/highlight.png" width="256" height="256">
 </p>
 
 [[English](https://github.com/taggon/highlight/blob/master/README.md)]
