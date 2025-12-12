@@ -147,7 +147,7 @@ extension AppDelegate {
     func loadStatusImage(name: String) {
         if let button = statusItem.button {
             button.image = NSImage(named: name)
-            button.image!.size = NSMakeSize(15.0, 15.0)
+            button.image!.size = NSMakeSize(14.0, 14.0)
         }
     }
 

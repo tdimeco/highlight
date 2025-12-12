@@ -46,7 +46,6 @@ You can install the app using [Homebrew](https://brew.sh/):
 brew install --cask tdimeco/apps/highlight
 ```
 
-This is the recommended way to install the app.
 The app auto updates with Homebrew.
 
 The Homebrew tap is maintained by [@tdimeco](https://github.com/tdimeco).
@@ -54,7 +53,8 @@ The Homebrew tap is maintained by [@tdimeco](https://github.com/tdimeco).
 ### Manual
 
 You can download the app from the [Releases](https://github.com/tdimeco/highlight/releases) page.
-The app does not auto update in this case.
+
+In-app updates are managed by [@taggon](https://github.com/taggon).
 
 ## Usage
 
